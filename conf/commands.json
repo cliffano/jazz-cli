@@ -1,0 +1,14 @@
+{
+  "commands": {
+    "merge": {
+      "desc": "Merge parameters to template",
+      "options": [
+        { "arg": "-p, --params <params>", "desc": "Parameters file" },
+        { "arg": "-t, --template <template>", "desc": "Template file" }
+      ],
+      "examples": [
+        "jazz-cli merge --params path/to/params.json --template path/to/template.jazz"
+      ]
+    }
+  }
+}
