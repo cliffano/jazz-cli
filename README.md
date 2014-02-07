@@ -26,4 +26,4 @@ Create a JSON file containing the parameters, and a Jazz file containing the tem
 
 Merge the parameters into the template:
 
-    jazz-cli merge --params path/to/params.json --template path/to/template.jazz
+    jazz-cli merge path/to/params.json path/to/template.jazz
