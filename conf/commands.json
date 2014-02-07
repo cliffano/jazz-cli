@@ -7,7 +7,7 @@
         { "name": "templateFile", "rules": [ "notEmpty" ] }
       ],
       "examples": [
-        "jazz-cli merge --params path/to/params.json --template path/to/template.jazz"
+        "jazz-cli merge path/to/params.json path/to/template.jazz"
       ]
     }
   }
