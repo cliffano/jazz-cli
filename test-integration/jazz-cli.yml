@@ -1,0 +1,9 @@
+- description: Command help should display help information
+  command: ../../../../../bin/jazz-cli --help
+  exitcode: 0
+  output: 'Usage: jazz-cli'
+
+- description: Command merge should merge parameters to template
+  command: ../../../../../bin/jazz-cli merge --params ../../../../../examples/params.json --template ../../../../../examples/template.jazz
+  exitcode: 0
+  output: 'Hello Jason Bourne\n\nYour destinations are - Tangier Morocco - Moscow Russia '

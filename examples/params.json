@@ -1,0 +1,10 @@
+{
+  "name": {
+    "first": "Jason",
+    "last": "Bourne"
+  },
+  "destinations": [
+    { "city": "Tangier", "country": "Morocco" },
+    { "city": "Moscow", "country": "Russia" }
+  ]
+}

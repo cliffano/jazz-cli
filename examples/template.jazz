@@ -1,0 +1,3 @@
+Hello {name.first} {name.last}
+
+Your destinations are {foreach destination in destinations}- {destination.city} {destination.country} {end}
