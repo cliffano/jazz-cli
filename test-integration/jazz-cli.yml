@@ -1,9 +1,15 @@
+- fixtures:
+    - examples
+
+- params:
+    jazzcli: ../../../../../bin/jazz-cli
+
 - description: Command help should display help information
-  command: ../../../../../bin/jazz-cli --help
+  command: '{jazzcli} --help'
   exitcode: 0
   output: 'Usage: jazz-cli'
 
 - description: Command merge should merge parameters to template
-  command: ../../../../../bin/jazz-cli merge ../../../../../examples/params.json ../../../../../examples/template.jazz
+  command: '{jazzcli} merge params.json template.jazz'
   exitcode: 0
   output: 'Hello Jason Bourne\n\nYour destinations are - Tangier Morocco - Moscow Russia '
