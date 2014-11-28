@@ -27,3 +27,8 @@ Create a JSON file containing the parameters, and a Jazz file containing the tem
 Merge the parameters into the template:
 
     jazz-cli merge path/to/params.json path/to/template.jazz
+
+Colophon
+--------
+
+[Developer's Guide](http://cliffano.github.io/developers_guide.html#nodejs)
