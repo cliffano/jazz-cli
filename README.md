@@ -32,3 +32,11 @@ Colophon
 --------
 
 [Developer's Guide](http://cliffano.github.io/developers_guide.html#nodejs)
+
+Build reports:
+
+* [Code complexity report](http://cliffano.github.io/jazz-cli/bob/complexity/plato/index.html)
+* [Unit tests report](http://cliffano.github.io/jazz-cli/bob/test/buster.out)
+* [Test coverage report](http://cliffano.github.io/jazz-cli/bob/coverage/buster-istanbul/lcov-report/lib/index.html)
+* [Integration tests report](http://cliffano.github.io/jazz-cli/bob/test-integration/cmdt.out)
+* [API Documentation](http://cliffano.github.io/jazz-cli/bob/doc/dox-foundation/index.html)
