@@ -30,12 +30,12 @@
     "test": "./test"
   },
   "dependencies": {
-    "bagofcli": "~0.2.0",
+    "bagofcli": "~0.2.1",
     "jazz": "~0.0.18"
   },
   "devDependencies": {
     "buster-node": "~0.7.0",
-    "referee": "~1.1.0"
+    "referee": "~1.1.1"
   },
   "scripts": {},
   "engines": {
