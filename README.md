@@ -1,7 +1,7 @@
 <img align="right" src="https://raw.github.com/cliffano/jazz-cli/master/avatar.jpg" alt="Avatar"/>
 
-[![Build Status](https://secure.travis-ci.org/cliffano/jazz-cli.png?branch=master)](http://travis-ci.org/cliffano/jazz-cli)
-[![Dependencies Status](https://david-dm.org/cliffano/jazz-cli.png)](http://david-dm.org/cliffano/jazz-cli)
+[![Build Status](https://img.shields.io/travis/cliffano/jazz-cli.svg)](http://travis-ci.org/cliffano/jazz-cli)
+[![Dependencies Status](https://img.shields.io/david/cliffano/jazz-cli.svg)](http://david-dm.org/cliffano/jazz-cli)
 [![Coverage Status](https://coveralls.io/repos/cliffano/jazz-cli/badge.png?branch=master)](https://coveralls.io/r/cliffano/jazz-cli?branch=master)
 [![Published Version](https://badge.fury.io/js/jazz-cli.png)](http://badge.fury.io/js/jazz-cli)
 <br/>
