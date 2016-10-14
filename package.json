@@ -30,7 +30,7 @@
     "test": "./test"
   },
   "dependencies": {
-    "bagofcli": "^0.2.5",
+    "bagofcli": "^1.0.0",
     "jazz": "^0.0.18"
   },
   "devDependencies": {
