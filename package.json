@@ -1,20 +1,21 @@
 {
   "name": "jazz-cli",
+  "type": "module",
   "description": "CLI for Jazz templating engine",
   "keywords": [
     "cli",
     "template",
     "templating"
   ],
-  "version": "0.1.1",
+  "version": "1.0.0-pre.0",
   "homepage": "http://github.com/cliffano/jazz-cli",
   "author": "Cliffano Subagio blah@cliffano.com (http://blog.cliffano.com)",
   "contributors": [
     "All contributors (https://github.com/cliffano/jazz-cli/graphs/contributors)"
   ],
-  "main": "./lib/jazz-cli",
+  "main": "./lib/jazz-cli.js",
   "bin": {
-    "jazz-cli": "./bin/jazz-cli"
+    "jazz-cli": "./bin/jazz-cli.js"
   },
   "preferGlobal": true,
   "repository": {
@@ -30,21 +31,17 @@
     "test": "./test"
   },
   "dependencies": {
-    "bagofcli": "^1.0.0",
+    "bagofcli": "^2.0.2",
     "jazz": "^0.0.18"
   },
   "devDependencies": {
-    "buster-node": "^0.7.1",
-    "referee": "^1.2.0"
+    "mocha": "^7.1.2",
+    "sinon": "^9.0.2",
+    "@sinonjs/referee": "^5.0.1"
   },
   "scripts": {},
   "engines": {
-    "node": "'>= 4.0.0'"
+    "node": "'>= 13.0.0'"
   },
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "http://github.com/cliffano/jazz-cli/raw/master/LICENSE"
-    }
-  ]
+  "license": "MIT"
 }

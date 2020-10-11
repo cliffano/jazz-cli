@@ -1,3 +1,4 @@
+"use strict"
 var buster = require('buster-node');
 var fs = require('fs');
 var JazzCli = require('../lib/jazz-cli');

@@ -2,7 +2,7 @@
     - examples
 
 - params:
-    jazzcli: ../../../../../bin/jazz-cli
+    jazzcli: ../../../../../bin/jazz-cli.js
 
 - description: Command help should display help information
   command: '{jazzcli} --help'

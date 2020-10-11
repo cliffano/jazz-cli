@@ -1,11 +1,11 @@
-var buster = require('buster-node');
-var _cli = require('bagofcli');
-var cli = require('../lib/cli');
-var JazzCli = require('../lib/jazz-cli');
-var referee = require('referee');
-var assert = referee.assert;
+"use strict"
+import assert from 'assert';
+import _cli from 'bagofcli';
+import cli from '../lib/cli';
+import JazzCli from '../lib/jazz-cli';
+import sinon from 'sinon';
 
-buster.testCase('cli - exec', {
+describe('cli - exec', function() {
   'should contain commands with actions': function (done) {
     var mockCommand = function (base, actions) {
       assert.defined(base);
@@ -18,7 +18,7 @@ buster.testCase('cli - exec', {
   }
 });
 
-buster.testCase('cli - build', {
+describe('cli - build', function() {
   setUp: function () {
     this.mockProcess = this.mock(process);
   },
