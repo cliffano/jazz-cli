@@ -29,7 +29,12 @@ describe('cli - build', function() {
   });
   it('should pass arguments to JazzCli merge', function() {
     sinon.stub(_cli, 'command').value(function (base, actions) {
-      actions.commands.merge.action('path/to/params.json', 'path/to/template.jazz');
+      const command = {
+        parent: {
+          args: ['merge', 'path/to/params.json', 'path/to/template.jazz']
+        }
+      }
+      actions.commands.merge.action(command);
     });
     this.mockProcess.expects('exit').once().withExactArgs(0);
     sinon.stub(JazzCli.prototype, 'merge').value(function (paramsFile, templateFile, cb) {

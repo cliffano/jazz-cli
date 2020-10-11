@@ -1,4 +1,4 @@
 #!/usr/bin/env node
 
-const cli = require('../lib/cli.js');
+import cli from '../lib/cli.js';
 cli.exec();
