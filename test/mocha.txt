@@ -1,0 +1,15 @@
+(node:15937) ExperimentalWarning: The ESM module loader is experimental.
+
+[0m[0m
+[0m  cli - exec[0m
+  [32m  ✓[0m[90m should contain commands with actions[0m
+
+[0m  cli - build[0m
+  [32m  ✓[0m[90m should pass arguments to JazzCli merge[0m
+
+[0m  jazz-cli - merge[0m
+  [32m  ✓[0m[90m should merge parameters into template[0m
+
+
+[92m [0m[32m 3 passing[0m[90m (20ms)[0m
+
