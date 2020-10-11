@@ -40,4 +40,4 @@ Build reports:
 * [Unit tests report](http://cliffano.github.io/jazz-cli/test/buster.txt)
 * [Test coverage report](http://cliffano.github.io/jazz-cli/coverage/buster-istanbul/lcov-report/lib/index.html)
 * [Integration tests report](http://cliffano.github.io/jazz-cli/test-integration/cmdt.txt)
-* [API Documentation](http://cliffano.github.io/jazz-cli/doc/dox-foundation/index.html)
+* [API Documentation](http://cliffano.github.io/jazz-cli/doc/jsdoc/index.html)
