@@ -37,7 +37,7 @@ Colophon
 Build reports:
 
 * [Code complexity report](http://cliffano.github.io/jazz-cli/complexity/plato/index.html)
-* [Unit tests report](http://cliffano.github.io/jazz-cli/test/buster.txt)
-* [Test coverage report](http://cliffano.github.io/jazz-cli/coverage/buster-istanbul/lcov-report/lib/index.html)
+* [Unit tests report](http://cliffano.github.io/jazz-cli/test/mocha.txt)
+* [Test coverage report](http://cliffano.github.io/jazz-cli/coverage/c8/index.html)
 * [Integration tests report](http://cliffano.github.io/jazz-cli/test-integration/cmdt.txt)
 * [API Documentation](http://cliffano.github.io/jazz-cli/doc/jsdoc/index.html)
