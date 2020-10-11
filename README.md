@@ -1,6 +1,7 @@
 <img align="right" src="https://raw.github.com/cliffano/jazz-cli/master/avatar.jpg" alt="Avatar"/>
 
 [![Build Status](https://img.shields.io/travis/cliffano/jazz-cli.svg)](http://travis-ci.org/cliffano/jazz-cli)
+[![Vulnerabilities Status](https://snyk.io/test/github/cliffano/jazz-cli/badge.svg)](https://snyk.io/test/github/cliffano/jazz-cli)
 [![Dependencies Status](https://img.shields.io/david/cliffano/jazz-cli.svg)](http://david-dm.org/cliffano/jazz-cli)
 [![Coverage Status](https://img.shields.io/coveralls/cliffano/jazz-cli.svg)](https://coveralls.io/r/cliffano/jazz-cli?branch=master)
 [![Published Version](https://img.shields.io/npm/v/jazz-cli.svg)](http://www.npmjs.com/package/jazz-cli)
@@ -36,7 +37,7 @@ Colophon
 Build reports:
 
 * [Code complexity report](http://cliffano.github.io/jazz-cli/complexity/plato/index.html)
-* [Unit tests report](http://cliffano.github.io/jazz-cli/test/buster.out)
+* [Unit tests report](http://cliffano.github.io/jazz-cli/test/buster.txt)
 * [Test coverage report](http://cliffano.github.io/jazz-cli/coverage/buster-istanbul/lcov-report/lib/index.html)
-* [Integration tests report](http://cliffano.github.io/jazz-cli/test-integration/cmdt.out)
+* [Integration tests report](http://cliffano.github.io/jazz-cli/test-integration/cmdt.txt)
 * [API Documentation](http://cliffano.github.io/jazz-cli/doc/dox-foundation/index.html)
