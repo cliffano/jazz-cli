@@ -1,4 +1,4 @@
-[90mUsing directory: .bob/test-integration/cmdt-1602415574454-15941[39m
+Using directory: .bob/test-integration/cmdt-1604049815692-2668
 
-test-integration/jazz-cli.yml [32m.[39m[32m.[39m
-[32m2 tests, 2 successes, 0 failure[39m
+test-integration/jazz-cli.yml ..
+2 tests, 2 successes, 0 failure
