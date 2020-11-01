@@ -31,13 +31,13 @@
     "test": "./test"
   },
   "dependencies": {
-    "bagofcli": "^2.0.2",
+    "bagofcli": "^2.1.0",
     "jazz": "^0.0.18"
   },
   "devDependencies": {
-    "mocha": "^7.1.2",
-    "sinon": "^9.0.2",
-    "@sinonjs/referee": "^5.0.1"
+    "mocha": "^8.2.0",
+    "sinon": "^9.2.1",
+    "@sinonjs/referee": "^6.1.0"
   },
   "scripts": {},
   "engines": {
