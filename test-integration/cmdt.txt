@@ -1,4 +1,6 @@
-Using directory: .bob/test-integration/cmdt-1604232572155-2849
+Using directory: .bob/test-integration/cmdt-1604232628251-2593
 
-test-integration/jazz-cli.yml ..
+test-integration/jazz-cli.yml (node:2593) Warning: Accessing non-existent property 'padLevels' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+..
 2 tests, 2 successes, 0 failure
