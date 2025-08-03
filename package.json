@@ -35,7 +35,7 @@
     "jazz": "^0.0.18"
   },
   "devDependencies": {
-    "mocha": "^8.2.0",
+    "mocha": "^10.1.0",
     "sinon": "^9.2.1",
     "@sinonjs/referee": "^6.1.0"
   },
