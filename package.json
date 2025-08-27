@@ -1,14 +1,14 @@
 {
   "name": "jazz-cli",
   "type": "module",
-  "description": "CLI for Jazz templating engine",
+  "description": "CLI for Jazz template engine",
   "keywords": [
     "cli",
-    "template",
-    "templating"
+    "jazz",
+    "template"
   ],
   "version": "1.0.1-pre.0",
-  "homepage": "http://github.com/cliffano/jazz-cli",
+  "homepage": "https://github.com/cliffano/jazz-cli",
   "author": "Cliffano Subagio blah@cliffano.com (http://blog.cliffano.com)",
   "contributors": [
     "All contributors (https://github.com/cliffano/jazz-cli/graphs/contributors)"
@@ -20,10 +20,10 @@
   "preferGlobal": true,
   "repository": {
     "type": "git",
-    "url": "http://github.com/cliffano/jazz-cli.git"
+    "url": "https://github.com/cliffano/jazz-cli.git"
   },
   "bugs": {
-    "url": "http://github.com/cliffano/jazz-cli/issues"
+    "url": "https://github.com/cliffano/jazz-cli/issues"
   },
   "directories": {
     "bin": "./bin",
@@ -31,13 +31,12 @@
     "test": "./test"
   },
   "dependencies": {
-    "bagofcli": "^2.1.0",
+    "bagofcli": "^2.4.1",
     "jazz": "^0.0.18"
   },
   "devDependencies": {
-    "mocha": "^8.2.0",
-    "sinon": "^9.2.1",
-    "@sinonjs/referee": "^6.1.0"
+    "@sinonjs/referee": "^11.0.1",
+    "sinon": "^21.0.0"
   },
   "scripts": {},
   "engines": {
