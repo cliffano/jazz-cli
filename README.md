@@ -1,12 +1,12 @@
 <img align="right" src="https://raw.github.com/cliffano/jazz-cli/master/avatar.jpg" alt="Avatar"/>
 
-[![Build Status](https://img.shields.io/travis/cliffano/jazz-cli.svg)](http://travis-ci.org/cliffano/jazz-cli)
-[![Security Status](https://snyk.io/test/github/cliffano/jazz-cli/badge.svg)](https://snyk.io/test/github/cliffano/jazz-cli)
-[![Dependencies Status](https://img.shields.io/david/cliffano/jazz-cli.svg)](http://david-dm.org/cliffano/jazz-cli)
+[![Build Status](https://github.com/cliffano/jazz-cli/workflows/CI/badge.svg)](https://github.com/cliffano/jazz-cli/actions?query=workflow%3ACI)
+[![Dependencies Status](https://img.shields.io/librariesio/release/npm/jazz-cli)](https://libraries.io/npm/jazz-cli)
+[![Code Scanning Status](https://github.com/cliffano/jazz-cli/workflows/CodeQL/badge.svg)](https://github.com/cliffano/jazz-cli/actions?query=workflow%3ACodeQL)
 [![Coverage Status](https://img.shields.io/coveralls/cliffano/jazz-cli.svg)](https://coveralls.io/r/cliffano/jazz-cli?branch=master)
-[![Published Version](https://img.shields.io/npm/v/jazz-cli.svg)](http://www.npmjs.com/package/jazz-cli)
+[![Security Status](https://snyk.io/test/github/cliffano/jazz-cli/badge.svg)](https://snyk.io/test/github/cliffano/jazz-cli)
+[![Published Version](https://img.shields.io/npm/v/jazz-cli.svg)](https://www.npmjs.com/package/jazz-cli)
 <br/>
-[![npm Badge](https://nodei.co/npm/jazz-cli.png)](http://npmjs.org/package/jazz-cli)
 
 Jazz CLI
 --------
