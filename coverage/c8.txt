@@ -1,17 +1,17 @@
-test | /opt/hostedtoolcache/node/14.17.4/x64/lib/node_modules/bob/node_modules/.bin/mocha --colors --reporter spec --recursive test/
+test | /opt/hostedtoolcache/node/20.19.4/x64/lib/node_modules/bob/node_modules/.bin/mocha --colors --reporter spec --recursive test/
 
 [0m[0m
 [0m  cli - exec[0m
-  [32m  ✓[0m[90m should contain commands with actions[0m
+  [32m  [32m✔[39m[0m[90m should contain commands with actions[0m
 
 [0m  cli - build[0m
-  [32m  ✓[0m[90m should pass arguments to JazzCli merge[0m
+  [32m  [32m✔[39m[0m[90m should pass arguments to JazzCli merge[0m
 
 [0m  jazz-cli - merge[0m
-  [32m  ✓[0m[90m should merge parameters into template[0m
+  [32m  [32m✔[39m[0m[90m should merge parameters into template[0m
 
 
-[92m [0m[32m 3 passing[0m[90m (19ms)[0m
+[92m [0m[32m 3 passing[0m[90m (14ms)[0m
 
 SUCCESS | exit code 0
 -------------|---------|----------|---------|---------|-------------------
