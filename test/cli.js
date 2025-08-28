@@ -1,4 +1,4 @@
-"use strict"
+"use strict";
 import _cli from 'bagofcli';
 import cli from '../lib/cli.js';
 import JazzCli from '../lib/jazz-cli.js';
@@ -33,7 +33,7 @@ describe('cli - build', function() {
         parent: {
           args: ['merge', 'path/to/params.json', 'path/to/template.jazz']
         }
-      }
+      };
       actions.commands.merge.action(command);
     });
     this.mockProcess.expects('exit').once().withExactArgs(0);

@@ -1,4 +1,4 @@
-"use strict"
+"use strict";
 /* eslint no-unused-vars: 0 */
 import fs from 'fs';
 import JazzCli from '../lib/jazz-cli.js';
