@@ -31,12 +31,12 @@
     "test": "./test"
   },
   "dependencies": {
-    "bagofcli": "^2.4.1",
-    "jazz": "^0.0.18"
+    "bagofcli": "^2.5.0",
+    "jazz": "^1.1.0"
   },
   "devDependencies": {
-    "@sinonjs/referee": "^11.0.1",
-    "sinon": "^21.0.0"
+    "@sinonjs/referee": "^11.0.2",
+    "sinon": "^22.0.0"
   },
   "scripts": {},
   "engines": {
