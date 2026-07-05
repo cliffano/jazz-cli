@@ -24,7 +24,7 @@
 <label for="nav-trigger" class="overlay"></label>
 
 <nav>
-    <li class="nav-link nav-home-link"><a href="index.html">Home</a></li><li class="nav-heading">Classes</li><li class="nav-heading"><span class="nav-item-type type-class">C</span><span class="nav-item-name"><a href="JazzCli.html">JazzCli</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="JazzCli.html#merge">merge</a></span></li><li class="nav-heading"><a href="global.html">Globals</a></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="global.html#exec">exec</a></span></li>
+    <li class="nav-link nav-home-link"><a href="index.html">Home</a></li><li class="nav-heading">Classes</li><li class="nav-heading"><span class="nav-item-type type-class">C</span><span class="nav-item-name"><a href="module-jazz-cli-JazzCli.html">JazzCli</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-jazz-cli-JazzCli.html#merge">merge</a></span></li><li class="nav-heading">Modules</li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-cli.html">cli</a></span></li><li class="nav-item"><span class="nav-item-type type-function">F</span><span class="nav-item-name"><a href="module-cli.html#~exec">exec</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-jazz-cli.html">jazz-cli</a></span></li>
 </nav>
 
 <div id="main">
@@ -42,10 +42,12 @@
 <header>
     
         <h2>
+            <span class="ancestors"><a href="module-jazz-cli.html">jazz-cli</a>~</span>
+        
         JazzCli
         </h2>
         
-            <div class="class-description">class JazzCli</div>
+            <div class="class-description">Jazz CLI service.</div>
         
     
 </header>
@@ -99,7 +101,7 @@
     
     <dt class="tag-source">Source:</dt>
     <dd class="tag-source"><ul class="dummy"><li>
-        <a href="jazz-cli.js.html">jazz-cli.js</a>, <a href="jazz-cli.js.html#line8">line 8</a>
+        <a href="jazz-cli.js.html">jazz-cli.js</a>, <a href="jazz-cli.js.html#line14">line 14</a>
     </li></ul></dd>
     
 
@@ -157,7 +159,7 @@
 
     
 
-    <h4 class="name" id="merge"><span class="type-signature"></span>merge<span class="signature">(paramsFile:, templateFile:, cb:)</span><span class="type-signature"></span></h4>
+    <h4 class="name" id="merge"><span class="type-signature"></span>merge<span class="signature">(paramsFile, templateFile, cb)</span><span class="type-signature"> &rarr; {void}</span></h4>
 
     
 
@@ -201,7 +203,7 @@ Result will be written to standard output.
     
     <dt class="tag-source">Source:</dt>
     <dd class="tag-source"><ul class="dummy"><li>
-        <a href="jazz-cli.js.html">jazz-cli.js</a>, <a href="jazz-cli.js.html#line18">line 18</a>
+        <a href="jazz-cli.js.html">jazz-cli.js</a>, <a href="jazz-cli.js.html#line24">line 24</a>
     </li></ul></dd>
     
 
@@ -245,13 +247,13 @@ Result will be written to standard output.
 
         <tr>
             
-                <td class="name"><code>paramsFile:</code></td>
+                <td class="name"><code>paramsFile</code></td>
             
 
             <td class="type">
             
                 
-<span class="param-type"><code>String</code></span>
+<span class="param-type"><code>string</code></span>
 
 
             
@@ -262,7 +264,7 @@ Result will be written to standard output.
             
 
             <td class="description last">
-                path to params file
+                Path to params file.
                 
             </td>
         </tr>
@@ -271,13 +273,13 @@ Result will be written to standard output.
 
         <tr>
             
-                <td class="name"><code>templateFile:</code></td>
+                <td class="name"><code>templateFile</code></td>
             
 
             <td class="type">
             
                 
-<span class="param-type"><code>String</code></span>
+<span class="param-type"><code>string</code></span>
 
 
             
@@ -288,7 +290,7 @@ Result will be written to standard output.
             
 
             <td class="description last">
-                path to template file
+                Path to template file.
                 
             </td>
         </tr>
@@ -297,7 +299,7 @@ Result will be written to standard output.
 
         <tr>
             
-                <td class="name"><code>cb:</code></td>
+                <td class="name"><code>cb</code></td>
             
 
             <td class="type">
@@ -314,7 +316,7 @@ Result will be written to standard output.
             
 
             <td class="description last">
-                standard cb(err, result) callback
+                Standard callback `cb(err, result)`.
                 
             </td>
         </tr>
@@ -335,6 +337,27 @@ Result will be written to standard output.
 
 
 
+
+<div class="section-returns">
+<h5>Returns:</h5>
+
+        
+
+<dl class="param-type">
+    <dt>
+        Type:
+    </dt>
+    <dd>
+        
+<span class="param-type"><code>void</code></span>
+
+
+    </dd>
+</dl>
+
+
+    
+</div>
 
 
 
@@ -357,7 +380,7 @@ Result will be written to standard output.
 <br class="clear">
 
 <footer>
-    Generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 4.0.5</a> on Sat Jul 04 2026 14:15:05 GMT+0000 (Coordinated Universal Time) using the Minami theme.
+    Generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 4.0.5</a> on Sun Jul 05 2026 10:44:21 GMT+0000 (Coordinated Universal Time) using the Minami theme.
 </footer>
 
 <script>prettyPrint();</script>

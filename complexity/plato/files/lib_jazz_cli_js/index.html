@@ -48,7 +48,7 @@
     </div>
     <div class="col-md-6">
       <h2 class="header">Lines of code <i class="icon icon-info-sign" rel="popover" data-placement="top" data-trigger="hover" data-content="Source Lines of Code / Logical Lines of Code" data-original-title="SLOC/LSLOC" data-container="body"></i></h2>
-      <p class="stat">32</p>
+      <p class="stat">35</p>
     </div>
   </div>
   <div class="row historical">
@@ -90,21 +90,27 @@
 <div class="container">
   <div class="row">
     <textarea id="file-source" class="col-md-12">&quot;use strict&quot;;
-import fs from &#039;fs&#039;;
-import jazz from &#039;jazz&#039;;
+import fs from &quot;fs&quot;;
+import jazz from &quot;jazz&quot;;
 
 /**
- * class JazzCli
+ * jazz-cli library module.
+ *
+ * @module jazz-cli
+ */
+
+/**
+ * Jazz CLI service.
  */
 class JazzCli {
-
   /**
    * Merge parameters into template file.
    * Result will be written to standard output.
    *
-   * @param {String} paramsFile: path to params file
-   * @param {String} templateFile: path to template file
-   * @param {Function} cb: standard cb(err, result) callback
+   * @param {string} paramsFile Path to params file.
+   * @param {string} templateFile Path to template file.
+   * @param {Function} cb Standard callback `cb(err, result)`.
+   * @returns {void}
    */
   merge(paramsFile, templateFile, cb) {
     const params = JSON.parse(fs.readFileSync(paramsFile));
@@ -115,12 +121,9 @@ class JazzCli {
       cb();
     });
   }
-
 }
 
-export {
-  JazzCli as default
-};</textarea>
+export { JazzCli as default };</textarea>
   </div>
 </div>
 
