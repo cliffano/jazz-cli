@@ -1,0 +1,15 @@
+---
+package_name: jazz-cli
+author: Cliffano Subagio
+generator:
+  component: node-cli
+  inputs:
+    project_id: jazz-cli
+    project_name: Jazz CLI
+    project_desc: CLI for Jazz template engine
+    author_name: Cliffano Subagio
+    author_email: cliffano@gmail.com
+    author_url: https://github.com/cliffano
+    github_id: cliffano
+    github_repo: jazz-cli
+    github_token_prefix: STUDIO

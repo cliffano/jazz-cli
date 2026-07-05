@@ -7,6 +7,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 
+### Added
+- Add Suntory as build Makefile
+
 ## 1.1.0 - 2025-08-28
 ### Changed
 - Set min node engine to >= 20.0.0
