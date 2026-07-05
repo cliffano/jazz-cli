@@ -1,4 +1,4 @@
-Using directory: .bob/test-integration/cmdt-1783249911882-3230
+Using directory: .bob/test-integration/cmdt-1783249916119-3256
 
 test-integration/jazz-cli.yml ..
 2 tests, 2 successes, 0 failure
