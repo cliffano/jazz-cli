@@ -1,4 +1,4 @@
-(node:3151) [DEP0151] DeprecationWarning: Package /home/runner/work/jazz-cli/jazz-cli/node_modules/jazz/ has a "main" field set to "./lib/jazz", excluding the full filename and extension to the resolved file at "lib/jazz.js", imported from /home/runner/work/jazz-cli/jazz-cli/lib/jazz-cli.js.
+(node:3157) [DEP0151] DeprecationWarning: Package /home/runner/work/jazz-cli/jazz-cli/node_modules/jazz/ has a "main" field set to "./lib/jazz", excluding the full filename and extension to the resolved file at "lib/jazz.js", imported from /home/runner/work/jazz-cli/jazz-cli/lib/jazz-cli.js.
  Automatic extension resolution of the "main" field is deprecated for ES modules.
 (Use `node --trace-deprecation ...` to show where the warning was created)
 
@@ -11,8 +11,8 @@
 
 [0m  jazz-cli - merge[0m
   [32m  [32m✔[39m[0m[90m should merge parameters into template[0m
-(node:3151) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(node:3157) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
 
 
-[92m [0m[32m 3 passing[0m[90m (22ms)[0m
+[92m [0m[32m 3 passing[0m[90m (20ms)[0m
 
