@@ -39,14 +39,6 @@ jazz-cli merge path/to/params.json path/to/template.jazz
 [Developer's Guide](https://cliffano.github.io/developers-guide-nodejs.html)
 <!-- END:DEVELOPERS_GUIDE -->
 
-Build reports:
-
-* [Code complexity report](https://cliffano.github.io/jazz-cli/complexity/plato/index.html)
-* [Unit tests report](https://cliffano.github.io/jazz-cli/test/mocha.txt)
-* [Test coverage report](https://cliffano.github.io/jazz-cli/coverage/c8/index.html)
-* [Integration tests report](https://cliffano.github.io/jazz-cli/test-integration/cmdt.txt)
-* [API Documentation](https://cliffano.github.io/jazz-cli/doc/jsdoc/index.html)
-
 <!-- BEGIN:BUILD_REPORTS -->
 Build reports:
 
