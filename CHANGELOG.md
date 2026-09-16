@@ -8,6 +8,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 - Upgrade Suntory to 1.9.0
+- Update CLI command parsing to work with bagofcli 3.1.0
 
 ## 1.2.0 - 2026-07-05
 ### Added

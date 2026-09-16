@@ -30,9 +30,7 @@ describe("cli - build", function () {
   it("should pass arguments to JazzCli merge", function () {
     sinon.stub(_cli, "command").value(function (base, actions) {
       const command = {
-        parent: {
-          args: ["merge", "path/to/params.json", "path/to/template.jazz"],
-        },
+        args: ["path/to/params.json", "path/to/template.jazz"],
       };
       actions.commands.merge.action(command);
     });
