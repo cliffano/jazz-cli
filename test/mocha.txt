@@ -8,9 +8,9 @@
 
 [0m  jazz-cli - merge[0m
   [32m  [32m✔[39m[0m[90m should merge parameters into template[0m
-(node:3115) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(node:3045) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
 (Use `node --trace-deprecation ...` to show where the warning was created)
 
 
-[92m [0m[32m 3 passing[0m[90m (22ms)[0m
+[92m [0m[32m 3 passing[0m[90m (14ms)[0m
 
