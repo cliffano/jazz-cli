@@ -1,4 +1,4 @@
-[90mlib/cli.js[39m 35ms (unchanged)
-[90mlib/jazz-cli.js[39m 5ms (unchanged)
-[90mtest/cli.js[39m 9ms (unchanged)
-[90mtest/jazz-cli.js[39m 5ms (unchanged)
+[90mlib/cli.js[39m 47ms (unchanged)
+[90mlib/jazz-cli.js[39m 8ms (unchanged)
+[90mtest/cli.js[39m 13ms (unchanged)
+[90mtest/jazz-cli.js[39m 7ms (unchanged)
